@@ -1,0 +1,544 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.pad-top-bot {
+    padding-top: 3%;
+    padding-bottom: 2%;
+} 
+
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.hero > section {
+    width: 40%;
+    padding: 5%;
+}
+
+
+
+.hero-img {
+    margin-top: 5%!important;
+    height: auto;
+    justify-content: center;
+    
+}
+
+
+.left-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 4%;
+}
+
+.left-cont p {
+margin: 5% 0 5% 0;
+}
+
+.right-cont > img {
+    margin-top: -10%;
+    /* height: 500px; */
+    width: 90%;
+    border-radius: 25px;
+    /* margin-left: 10%; */
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+button {
+    width:fit-content !important;
+   padding: 15px;
+    height: 50px;
+    font-size: 1.1rem;
+    margin:5px;
+    border-radius: 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #000; 
+}
+button a:hover {
+    color: #000; 
+    background-color: #fff;
+}
+
+p {
+    line-height: 25px;
+    font-size: 1.2rem;
+}
+
+.services, .card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1500px;
+    margin: auto;
+    padding: 5%;
+}
+
+ .card-section > h2 {
+    text-align: center;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.services > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.services-text {
+    width: 50%;
+}
+.container > section {
+    /* width: 40%; */
+    padding: 4%;
+}
+
+.container > section > ul {
+    width: 40%;
+    padding: 2% 4%;
+}
+
+.services-text {
+    align-items: center;
+    margin: 6%;
+}
+
+.services-img {
+    margin-left: 5px;
+}
+
+.services ul {
+    margin-left: 15px;
+}
+.right-container  > img {
+    width: 70%;
+}
+.left-containter > img {
+    width: 70%;
+}
+
+.cont-img img {
+    width: 200px;
+}
+
+.card-section > p {
+    text-align: center;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards > section {
+    width: 400px;
+    /* width: auto; */
+   border: 2px solid #000;
+    margin: 10px;
+    text-align: center;
+    padding: 5% 2%;
+    background-color: rgba(155, 154, 153, 0.325);
+}
+
+.cards > section > img {
+    /* width: 300px; */
+    width: 300px;
+    margin: 5px;
+}
+
+.benefits {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.benefits > h2 {
+    margin: 25px;
+}
+.benefit-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.benefit-details > section {
+    margin: 2px;
+    height: 300px;
+    width: 300px;
+    padding-top: 50px;
+   text-align: center;
+ }
+
+.benefit-details > section > h4 {
+    font-size: 20px!important;
+    margin: 5px;
+}
+
+.benefit-details > section > img {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+
+.project-ideas {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.project-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.project-cards > section {
+    border: 2px solid #000;
+    margin: 10px;
+    height: 80px;
+    width: 300px;
+    padding: 15px;
+    font-size: 20px;
+
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+
+.pricing-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.pricing-cards > section {
+    border: 2px solid #000;
+    margin: 10px;
+    height: 700px;
+    width: 300px;
+    padding: 5%;
+}
+
+
+.pricing-cards > section > h4 {
+    margin-top: 10%;
+}
+
+
+.testimonial-container {
+    background-color: #000;
+    color: #fff;
+    margin: auto;
+    max-width: 1500px;
+    position: relative;
+    padding: 10% 15%;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .fa-quote {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 28px;
+    position: absolute;
+    top: 70px;
+  }
+  
+  .fa-quote-right {
+    left: 40px;
+  }
+  
+  .fa-quote-left {
+    right: 40px;
+  }
+  
+  .testimonial {
+    line-height: 28px;
+    text-align: center;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user .user-image {
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    object-fit: cover;
+  }
+  
+  .user .user-details {
+    margin-left: 10px;
+  }
+  
+  .user .username {
+    margin: 0;
+  }
+  
+  .user .loc {
+    font-weight: normal;
+    margin: 10px 0;
+  }
+  
+  .progress-bar {
+    background-color: #fff;
+    height: 4px;
+    width: 100%;
+    animation: grow 10s linear infinite;
+    transform-origin: left;
+  }
+  
+  @keyframes grow {
+    0% {
+      transform: scaleX(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .testimonial-container {
+      padding: 20px 30px;
+    }
+  
+    .fa-quote {
+      display: none;
+    }
+  }
+
+
+
+
+
+
+footer {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: auto;
+    justify-content: space-around;
+    width: 100%;
+ padding: 2% 5%;
+}
+
+.footer-div {
+    background-color: #000;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: row;
+}
+.right-footer > ul {
+    margin: 10%;
+}
+
+footer > .right-footer > ul  {
+   list-style-type: none;
+}
+
+
+@media screen and (max-width: 990px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        padding-top: 15%;
+    }
+
+    .hero > section {
+        width: fit-content;
+        align-items: center;
+        text-align: center;
+      
+    }
+    .right-cont {
+        margin: auto;
+    }
+
+
+    .hero-img {
+        width: fit-content;
+    }
+
+    .hero-img img {
+        width: fit-content;
+    }
+
+    .services > .container {
+        display: flex;
+        flex-direction: column;
+       justify-content: center;
+    }
+    .services > .container > section 
+    {
+        width: fit-content;
+    }
+
+    .services  h2 {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .services-img {
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+
+    .container > section > .cont-img {
+        width: 100%;
+    }
+
+    .benefits {
+        text-align: center;
+        margin: 5%;
+    }
+
+    .card-section {
+        margin: 5%;
+    }
+
+    .pricing {
+        margin: 5%;
+    }
+
+.project-cards {
+    object-fit: contain;
+}
+   
+    .pricing-cards > section {
+        padding: 7%;
+    }
+    .card-section > .cards {
+        padding: 5%;
+    }
+
+
+
+    .reverse-this {
+        background-color: rgba(113, 112, 110, 0.271);
+    
+
+}
+
+.services > .container > section > img {
+    width: 80%;
+
+}
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(41, 39, 39);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: grey;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+
+
+
+
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
